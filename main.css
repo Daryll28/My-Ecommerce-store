@@ -1,0 +1,59 @@
+#products{
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#products img {
+    height: 380px;
+    object-fit: cover;
+}
+.card{
+    width: calc(60% / 2);
+    border: 1px solid black;
+    
+}
+
+.card-title{
+    text-transform: capitalize;
+}
+
+#terms{
+    text-align: end;
+    font-size: x-large;
+}
+
+
+/* mobile responsiveness */
+
+
+@media only screen and (max-width:600px){
+
+    #products{
+flex-direction: column;
+width: 1200px;
+justify-content: center;
+}
+
+p{
+    justify-content: center;
+}
+.card{
+    justify-content: center;
+
+}
+.pt-4 {
+    margin-left: -40px;
+    font-size: small;
+}
+#terms{
+    font-size: medium;
+}
+xxx{
+    font-size: small;
+}
+body{
+overflow-x: hidden;
+}
+
+
+}
